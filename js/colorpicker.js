@@ -14,14 +14,10 @@ it to PYBL data. It then will input the data in labels.
       if(red == '' || isNaN(red) || green == '' || isNaN(green) || blue == '' || isNaN(blue) ){
         alert("All fields require a number!");
       }
-      
       else if (red < 0 || red > 1 || green < 0 || green > 1 || blue < 0 || blue > 1){
         alert("Please only select numbers between 0 and 1!");
-        
       }
-      
       else {
-        
         // Calculates what PYBL will be from RGB values submitted
         var totalRGB = (red + green + blue);
         var rho = (red / totalRGB).toFixed(2);
