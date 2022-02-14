@@ -1,9 +1,12 @@
 /*
 **********
 Script is designed to get the RGB data and change
-it to PYBL data. It then will input the data in labels.
+it to PYBL data. It then will input the data in labels
+after validating it matches the requirements. Gives
+the customer the ability to refresh the page.
 */
 
+// Event listener for the submit button contains the logic for converting RGB to PYBL
 document.querySelector("#RGBForm").addEventListener("submit", function(event) {
   
   var red = Number(document.querySelector("#red").value);
@@ -35,6 +38,10 @@ document.querySelector("#RGBForm").addEventListener("submit", function(event) {
     document.querySelector("#gamma").innerHTML += (" " + gamma);
     document.querySelector("#beta").innerHTML += (" " + beta);
     document.querySelector("#luminance").innerHTML += (" " + luminance);
+    
+    // Calculates the RGB color and makes it the color of the square
+    document.querySelector("#pyblSquare").style.backgroundColor = 'rgb(' + (red * 255) + ',' + (green * 255) + ',' + (blue * 255) + ')';
+    
   }
   
   // Stops the form from getting refreshed by the browser
