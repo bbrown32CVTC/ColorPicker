@@ -7,45 +7,47 @@
   </head>
 
   <body>
-    <header>
-      <h1>Color Picker</h1>
-    </header>
-    
-    <main>
-      <form>
-        <label for="red">Red:</label><br>
-        <input type="text" id="red" name="red"><br><br>
-        <label for="green">Green:</label><br>
-        <input type="text" id="green" name="green"><br><br>
-        <label for="blue">Blue:</label><br>
-        <input type="text" id="blue" name="blue"><br><br>
-        <input type="submit" value="Submit"><br><br>
-      </form>
+    <div id="wrapper">
+      <header>
+        <h1>Color Picker</h1>
+      </header>
       
-      <div id="Conversion">
+      <main>
         <form>
-          <label for="rho">Rho (ρ):</label><br>
-          <input type="text" id="rho" name="rho"><br><br>
-          <label for="gamma">Gamma (ɣ):</label><br>
-          <input type="text" id="gamma" name="gamma"><br><br>
-          <label for="beta">Beta (β):</label><br>
-          <input type="text" id="beta" name="beta"><br><br>
-          <label for="luminance ">Luminance (L):</label><br>
-          <input type="text" id="luminance" name="luminance"><br>
+          <label for="red">Red:</label><br>
+          <input type="text" id="red" name="red"><br>
+          <label for="green">Green:</label><br>
+          <input type="text" id="green" name="green"><br>
+          <label for="blue">Blue:</label><br>
+          <input type="text" id="blue" name="blue"><br>
+          <input type="submit" value="Submit"><br><br>
         </form>
-      </div>
-    </main>
-    
-    <footer>
-      <nav>
-        <ul>
-          <li><a href="https://bbrown32cvtc.github.io/ColorPicker/">GitHub Page</a></li>
-          <li><a href="https://github.com/bbrown32CVTC/ColorPicker">GitHub Repository</a></li>
-          <li><a href="https://www.pivotaltracker.com/n/projects/2554143">Pivotal Tracker</a></li>
-        </ul>
-      </nav>
-      <small>Copyright &copy; Bruce Brown</small>
-    </footer>
+        
+        <div id="Conversion">
+          <form>
+            <label for="rho">Rho (ρ):</label><br>
+            <input type="text" id="rho" name="rho"><br>
+            <label for="gamma">Gamma (ɣ):</label><br>
+            <input type="text" id="gamma" name="gamma"><br>
+            <label for="beta">Beta (β):</label><br>
+            <input type="text" id="beta" name="beta"><br>
+            <label for="luminance ">Luminance (L):</label><br>
+            <input type="text" id="luminance" name="luminance"><br>
+          </form>
+        </div>
+      </main>
+      
+      <footer>
+        <nav>
+          <ul>
+            <li><a href="https://bbrown32cvtc.github.io/ColorPicker/">GitHub Page</a></li>
+            <li><a href="https://github.com/bbrown32CVTC/ColorPicker">GitHub Repository</a></li>
+            <li><a href="https://www.pivotaltracker.com/n/projects/2554143">Pivotal Tracker</a></li>
+          </ul>
+        </nav>
+        <small id="copyright">Copyright &copy; Bruce Brown</small>
+      </footer>
+    </div>
     
     <script src="js/colorpicker.js"></script>
   </body>
