@@ -7,8 +7,6 @@ body {
 
 h1 {text-align: center;}
 
-#copyright {text-align: center;}
-
 nav a {
   background-color: #06215F; 
   color: #FFF;
@@ -91,7 +89,7 @@ label {
   font-weight: bold;
   padding-right: 1em; 
   text-align: left; 
-  width: 100px; 
+  width: 200px; 
 }
 
 input, textarea { display: block; margin-bottom: 20px; }
