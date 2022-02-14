@@ -1,0 +1,44 @@
+body { font-family: Verdana, Geneva, sans-serif; }
+
+h1 {text-align: center;}
+
+nav a {
+  background-color: #06215F; 
+  color: #FFF;
+  display: block;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin: 10px auto;
+  text-align: center;
+  width: 90%;
+}
+
+nav a:link { color: #FFF; } 
+
+nav a:visited { color: #8AC4F5; } 
+
+nav a:hover, nav a:focus {
+  background-color: #CAE4FA;
+  border-radius: 5px; 
+  color: #333; 
+  font-weight: bold; 
+} 
+main {
+  background-color: #DEF0FF;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 1%;
+  width: 88%;
+}
+
+#Conversion {display: none;}
