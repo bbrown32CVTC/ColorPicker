@@ -9,6 +9,13 @@ the customer the ability to refresh the page.
 // Event listener for the submit button contains the logic for converting RGB to PYBL
 document.querySelector("#RGBForm").addEventListener("submit", function(event) {
   
+  if(document.querySelector("#Conversion").style.display == "block"){
+    document.querySelector("#rho").innerHTML = "Rho (ρ):";
+    document.querySelector("#gamma").innerHTML = "Gamma (ɣ):";
+    document.querySelector("#beta").innerHTML = "Beta (β):";
+    document.querySelector("#luminance").innerHTML = "Luminance (L):";
+  }
+  
   var red = Number(document.querySelector("#red").value);
   var green = Number(document.querySelector("#green").value);
   var blue = Number(document.querySelector("#blue").value);
