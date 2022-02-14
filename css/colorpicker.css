@@ -97,3 +97,9 @@ input, textarea { display: block; margin-bottom: 20px; }
 input[type=submit] { margin-left: 115px; }
 
 #Conversion {display: none;}
+
+#pyblSquare {
+  height: 20em;
+  width: 20em;
+  background-color: #555;
+}

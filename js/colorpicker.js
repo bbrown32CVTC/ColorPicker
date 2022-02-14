@@ -28,8 +28,9 @@ document.querySelector("#RGBForm").addEventListener("submit", function(event) {
     var beta = (blue / totalRGB).toFixed(2);
     var luminance = Math.max(rho, gamma, beta);
     
-    // Displays the PYBL labels and adds the data
+    // Displays the PYBL labels, square, and adds the data to labels
     document.querySelector("#Conversion").style.display = "block";
+    document.querySelector("#pyblSquare").style.display = "block";
     document.querySelector("#rho").innerHTML += (" " + rho);
     document.querySelector("#gamma").innerHTML += (" " + gamma);
     document.querySelector("#beta").innerHTML += (" " + beta);
